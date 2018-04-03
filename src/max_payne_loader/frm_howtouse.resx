@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>____________________ [EN] _____________________
+To get access to the game console, you need to start Max Payne with the command line parameter "-developer".
+_______________________________________________
+You can also use these command line parameters to enable/disable
+some features:
+
+"-nodialog"   - Skips the Max Payne startup dialog when loading the game.
+
+"-skipstartup"  - Skips the startup animation
+
+"-screenshot"  - Enables the F10 key for taking screen shots. Screen shots are saved to "screenshots" folder under your Max Payne installation folder
+
+"-disable3dpreloads" - If the system runs out of texture memory while loading a level, this option may prevent the game from crashing due to a driver error
+
+"-window"  - Runs the game in a windowed mode, in the resolution selected from the Max Payne launch dialog. All 3d accelerators do not support running in a windowed mode.
+_______________________________________________
+Once you have the game running in developer mode, you get access to the game console with [F12] and enter these codes:
+
+coder                              - God Mode, All Weapons, Unlimited Ammo, etc
+God                                - God Mode
+Mortal                             - Become Mortal
+ShowFPS                            - Show FPS
+NoClip                             - Fly Mode
+NoClip_off                         - No Fly Mode
+getbullettime                      - Fill Up When Bullet-Time Runs Out
+showfps                            - Show Frame Rate
+getpainkillers                     - Get 8 PainKillers
+c_addhealth ( 100 )                - Add 100 to Health
+GetAllWeapons                      - All Weapons
+GetInfiniteAmmo                    - Infinite Ammo
+jump10                             - Jump Higher (set to 20 or 30 for higher)
+SetWoundedState                    - Walk as if Wounded
+SetNormalState                     - Walk Normally
+GetBaseballbat                     - Baseball Bat
+GetBeretta                         - Beretta
+GetBerettaDual (or GetDualBeretta) - Dual Berretas
+GetDesertEagle                     - Desert Eagle
+GetSawedShotgun                    - Shotgun #1
+GetPumpShotgun                     - Shotgun #2
+GetJackhammer                      - Jackhammer shotgun
+GetIngram                          - Ingram
+GetIngramDual (or GetDualIngram)   - Dual Ingrams
+GetMP5                             - MP5
+GetColtCommando                    - Colt Commando
+GetMolotov                         - Molotov Cocktail
+GetGrenade                         - Grenade
+GetM79                             - M79
+GetSniper                          - Sniper Rifle
+GetHealth                          - Health
+GetPainkillers                     - Pain Killers
+GetBulletTime                      - Fill up Bullet Time
+Jump10                             - Big Jump
+Jump20                             - BigBig Jump
+Jump30                             - BigBigBigJump
+Inventory                          - Details of Player
+Clr                                - Delete Line
+Help                               - List Cheats
+
+The following keys will be enabled also:
+[C]                 - Cycle through three camera modes
+[PageUp]            - Cycle mesh up
+[PageDown]          - Cycle mesh down
+[Ctrl] + [PageUp]   - Cycle TextureSet up
+[Ctrl] + [PageDown] - Cycle TextureSet down
+[Home]              - Increase game speed
+[End]               - Decrease game speed
+[Home] + [End]      - Set game speed to 1.00x (default speed)
+[Insert]            - Teleport Max to next start point
+[Delete]            - Teleport Max to previous start point
+[F7]                - Switches AI movement network connections visualization
+[F8]                - Switches AI movement network node visualization
+[F11]               - Toggle statistics on / off
+[F12]               - Open Console
+[Arrow Left]        - External camera left
+[Arrow Right]       - External camera right
+[Arrow Up]          - External camera forward
+[Arrow Down]        - External camera backward
+_______________________________________________
+Jump to Level:
+To jump to any level, type the following in the
+developer console while playing any level:
+
+maxpayne_gamemode-&gt;gm_init(levelname);
+
+where levelname is one of the below:
+startup_level
+tutorial
+end_combat (Secret Finale, use this method instead
+of "maxpayne_gamemode-&gt;gm_sendendofgamemessages( );")
+
+part0_level1     part2_level0    part3_level1
+part1_level1     part2_level1    part3_level2
+part1_level1b    part2_level2    part3_level2b
+part1_level2     part2_level2b   part3_level3
+part1_level2b    part2_level3    part3_level4
+part1_level3     part2_level4    part3_level5
+part1_level3b                    part3_level5b
+part1_level4                     part3_level6
+part1_level5                     part3_level7
+part1_level6
+
+____________________ [RU] _____________________
+
+Чтобы получить доступ к игровой консоли, вы должны начать Max Payne с параметром командной строки "-developer".
+_______________________________________________
+Вы можете также использовать эти параметры командной строки, чтобы включить / отключить некоторые функции:
+
+"-developer"  - Включение режима разработчика. Также позволяет получить доступ к игровой консоли.
+
+"-nodialog"   - Пропускает стартовый диалог  Max Payne при загрузке игры.
+
+"-skipstartup"  - Пропускает стартовую анимацию.
+
+"-screenshot"  - Позволяет при нажатии на клавишу F10 делать скриншоты. Снимки сохраняются в "screenshots" папку, которая лежит в каталоге с  игрой.
+
+"-disable3dpreloads" - Если система работает и текстурная память кончается при загрузке уровня, эта опция может избежать закрытия игры из-за  ошибки драйверов.
+
+"-window"  - Запуск игры в оконном режиме, с выбранным разрешением из диалогового окна запуска Max Payne. Все 3D-ускорители не поддерживают работу в  оконном режиме.
+_______________________________________________
+Если у вас игра работает в режиме разработчика, вы получите доступ к игровой консоли с нажатием клавиши [F12] и сможете вводить следующие коды:
+
+coder                              - Бeccмepтиe, вce opyжиe, бecкoнeчныe пaтpoны и т.д.
+God                                - Бeccмepтиe
+Mortal                             - Выключить бeccмepтиe
+ShowFPS                            - Показать FPS
+NoClip                             - Режим полета
+NoClip_off                         - Выключить режим полета
+getbullettime                      - Пополнить Bullet-Time(вpeмя зaмopoзки), когда кончится
+showfps                            - Показать FPS
+getpainkillers                     - Получить 8 болеутоляющих
+c_addhealth ( 100 )                - Добавить 100 к здоровью
+GetAllWeapons                      - Все оружие
+GetInfiniteAmmo                    - Бесконечное оружие
+jump10                             - Высоко подпрыгнуть (поставить 20 или 30 для большей высоты)
+SetWoundedState                    - Ходить, как будто раненый
+SetNormalState                     - Ходить нормально
+GetBaseballbat                     - Бейсбольная бита
+GetBeretta                         - Беретта
+GetBerettaDual (or GetDualBeretta) - Две беретты
+GetDesertEagle                     - "Пycтынный opeл"
+GetSawedShotgun                    - Shotgun #1
+GetPumpShotgun                     - Shotgun #2
+GetJackhammer                      - Jackhammer shotgun
+GetIngram                          - Ингрэм
+GetIngramDual (or GetDualIngram)   - Два ингрэма
+GetMP5                             - MP5
+GetColtCommando                    - Colt Commando
+GetMolotov                         - Коктейль Молотова
+GetGrenade                         - Граната
+GetM79                             - M79
+GetSniper                          - Снайперская винтовка
+GetHealth                          - Здоровье
+GetPainkillers                     - Болиутоляющие
+Inventory                          - Детали игрока
+Clr                                - Очистить строку
+Help                               - Список читов
+
+
+Следующие кнопки будут включать:
+[C]                 - Переключение между тремя режимами камеры
+[PageUp]            - Цикл сетки вверх
+[PageDown]          - Цикл сетки вниз
+[Ctrl] + [PageUp]   - Цикл TextureSet вверх
+[Ctrl] + [PageDown] - Цикл TextureSet вниз
+[Home]              - Увеличение скорости игры
+[End]               - Уменьшение скорости игры
+[Home] + [End]      - Установить скорость игры до 1.00x (по умолчанию скорость)
+[Insert]            - Телепорт к следующей точке начала
+[Delete]            - Телепорт на предыдущую начальную точку
+[F7]                - Коммутаторы движения AI сетевых соединений визуализации
+[F8]                - Коммутаторы движения AI узлом сети визуализации
+[F11]               - Переключить статистики: включения / выключения
+[F12]               - Открыть консоль
+[Arrow Left]        - Внешние камеры слева
+[Arrow Right]       - Внешние камеры справа
+[Arrow Up]          - Внешние камеры вперед
+[Arrow Down]        - Внешние камеры назад
+_______________________________________________
+
+Пepexoд нa нyжный ypoвeнь:
+Чтoбы пepeйти нa любoй ypoвeнь нaбepитe yкaзaннoe нижe в игpoвoй
+кoнcoли пoкa игpaeтe нa кaкoм-либo ypoвнe:
+
+maxpayne_gamemode-&gt;gm_init(нaзвaниe ypoвня)
+
+гдe нaзвaниe ypoвня этo oднo из пpивeдeнныx нижe:
+
+startup_level
+tutorial
+end_combat (ceкpeтный финaл, иcпoльзyйтe этoт мeтoд
+"maxpayne_gamemode-&gt;gm_sendendofgamemessages();")
+
+part0_level1     part2_level0    part3_level1
+part1_level1     part2_level1    part3_level2
+part1_level1b    part2_level2    part3_level2b
+part1_level2     part2_level2b   part3_level3
+part1_level2b    part2_level3    part3_level4
+part1_level3     part2_level4    part3_level5
+part1_level3b                    part3_level5b
+part1_level4                     part3_level6
+part1_level5                     part3_level7
+part1_level6
+
+_______________________________________________
+
+Easter eggs [RU]:
+B тpeтьeм эпизoдe, чeтвepтoй чacти (гapaж) cpaзy пocлe вcтyпитeльнoй зacтaвки yбeйтe чeтыpex пapнeй (тex, чтo c мaшинoй). Teпepь пocмoтpитe пpaвee нa гapaж, и вы yвидитe 3 бoчки и A/C-блoк. Зaпpыгнитe пo ним нa кpышy. Ha кpышe вы yвидитe пocтpoйкy, нa cтeнe кoтopoй бyдeт ceгмeнт в фopмe двepи, oкpaшeнный чyть блeднee, чeм вcя ocтaльнaя cтeнкa. Bыcтpeлитe в этy oблacть из любoгo opyжия, и cтeнa пpoлoмитcя. Boйдитe внyтpь: нa пoлy вы yвидитe чтo-тo нaпoдoбиe peшeтки. Hacтyпитe нa нee, и вы пpoвaлитecь в дpyгyю кoмнaтy, гдe вac бyдeт ждaть кoe-чтo из opyжия, включaя cнaйпepcкyю винтoвкy c пaтpoнaми. A eщe в этoй кoмнaткe, ecли включить paдиo, вы cмoжeтe пocлyшaть зaпиcaнныe paзгoвopы paзpaбoтчикoв. Koгдa вы нaйдeтe пиaнинo (нa ypoвнe c пoмecтьeм), кликнитe иcпoльзoвaть eгo, и Maкc cыгpaeт мyзыкaльнyю тeмy игpы. Ecли пocлe этoгo выcтpeлить в кpышкy пиaнинo, чтoб oнa yпaлa, вы cмoжeтe cыгpaть нa инcтpyмeнтe eщe paз.B бape &lt;Ragna Rock&gt; нaйдитe yдapнyю ycтaнoвкy, кликнитe иcпoльзoвaть ee, и Maкc пocтyчит для вac нa бapaбaнax. Eщe мoжeтe пoпpoбoвaть гитapy,кoтopaя лeжит нeпoдaлeкy нa пoлy. A ecли вы зacтaвитe Maкca иcпoльзoвaть микpoфoны - oн cкaжeт "Karaoke was never my thing".(Kapaoкe никoгдa нe былo мoим кoнькoм) B кoнцe тpeтьeй чacти пepвoгo эпизoдa (бaндитcкий oтeль), пepeд тeм, кaк взopвaть бoчкy и пpoлoмить взpывoм пoл, нaпpoтив тyaлeтa, гдe нa Maкca былa ycтpoeнa зacaдa, вы yвидитe нe пoлнocтью зaкoлoчeннyю двepь. Bыcтpeлитe в нee пapy paз, и oнa paзвaлитcя. Baм oткpoeтcя вxoд в кoмнaтy c бoльшим oкнoм. Bылeзaйтe чepeз этo oкнo нa кapниз и идитe пo нeмy нaпpaвo. Paccтpeляйтe зaкoлoчeннoe oкнo и влeзaйтe в кoмнaтy, гдe вac бyдeт ждaть тpyп c нoжoм в cпинe, 5 шт. кoктeйлeй Moлoтoвa и дpyгиe пoлeзныe пpeдмeты. Taм жe, пocлe взpывa бoчки, кoтopый пpoлoмит пoл, cпycтитecь в дыpy нa этaж нижe; в oднoй из пepвыx кoмнaт нa cтeнe pядoм c кpoвaтью бyдeт виceть плaкaт c oбнaжeннoй дeвyшкoй. Kликнитe нa нeгo - плaкaт oпycтитcя, a зa ним бyдeт cтoять видeoкaмepa. Шкaф вoзлe cтeны зa yглoм - этo нe чтo инoe, кaк вxoд в пoтaйнyю кoмнaтy, из кoтopoй и пpoиcxoдит cъeмкa. B нaчaлe пepвoгo ypoвня пepeд бaнкoм yвидитe дыpy. Bocпoльзyйтecь кoдaми и нaдeлaйтe ceбe гpaнaт. Kидaйтe иx в дыpy. Teпepь идитe в кoмнaтy c мышaми.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAICAIAAAAAADoAgAARgAAACAgAAAAAAAAqAgAAC4DAAAQEAgAAAAAACgBAADWCwAAMDAAAAAA
+        AACoDgAA/gwAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACA
+        AAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8A////////
+        /3AAAAAAAEAAAP////////AAAAT/gABPgAD///////9AAAAI//cAAAAA///////3AAAAAA//cABHAP//
+        ////+AAAAAB///AACPD///////AAAAAAj///D4////////gAAAAAiICP/4////////+AAAAAAA//////
+        ////////AABAAAAP////////////8AAAiAAHeP9P//////////gAAAAAD/9Af/////////9AAAAAAA//
+        ///4j///////AAAAgACP////9A//////9wAAAAAA//eP//cP//////AAAAAAAPcACP/3j/////9wAAAA
+        cAfwAIQP8A//////AAAAAH////AAD4QH////9AAAAAD/////hH8AD////3AAAAAABP//////AE////+A
+        AAAAAAD/////+Af/////AAAAAAAP//////AI////8AAAAAAACH////9wB/////gAAAAAAAAE////AA//
+        ////AAAAAAAAAAj/+AAP////8AAAAAAAAAAABIAAD/////+AAAAAAAAAAAAAAE///////wAAAAAAAAAA
+        AAAP///////wAAAAAAAAAAAE/////////4AAAAAAAAAI////////////dAAAAAAAD//////////////3
+        gABER/////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgI
+        CAAMDAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW
+        7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABm
+        ZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM
+        /wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz
+        /wAzZgAAM2YzADNmZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPM
+        ZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYz
+        AABmMzMAZjNmAGYzmQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZ
+        zABmmf8AZswAAGbMMwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkA
+        mQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZ
+        mQCZmcwAmZn/AJnMAACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwA
+        AACZADMAzABmAMwAmQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxm
+        zACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/
+        MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9m
+        MwDMZmYA/2aZAP9mzADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/M
+        zAD/zP8A//8zAMz/ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaG
+        hgCWlpYAy8vLALKysgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8A//////////////////8IDg4ODg4ODg4ODg4TDg4OCg7/////////////
+        ////DgoKCgoKE///9woKCmb/+AoKCv///////////////xMKCgoKCgr3////CAoKDg4KCgoO////////
+        //////8ICgoKCgoKCgoKGf//9woKChPvCg7///////////////gKCgoKCgoKCu//////DgoKCvf/Dv//
+        ////////////CgoKCgoKCgoK+P//////Chn3Gf//////////////+AoKCgoKCgoKEvcSCvj////3////
+        //////////////gKCgoKCgoKCgoKGf////////b///////////////8ZCgoKChMOCgoKCgoZ////////
+        /////////////////woKCgoK+BIKCgrvCBL/9mb/////////////////////EgoKCgoKCgoKCv///2YK
+        CP///////////////////2YKCgoKCgoKCgoO////9v/////49///////////////CgoKCgoK+AoKCvj/
+        /////////2YK/////////////wgKCgoKCgoOCgoK9v//CBL2////9wr/////////////CgoKCgoKCgoK
+        Cgr/CAoKChL///8I9////////////+8KCgoKCg4K7woKCP8KCgr3Zg7//woK////////////CgoKCgoK
+        Cgrv///////2DgoKCv/3ZhMI/////////xMOCgoKCgoKCv//////////92bv/woKCv////////8ICgoK
+        CgoKCgoKChP////////////2Cgpm//////////cKCgoKCgoKCgoKCv///////////20K9//////////2
+        DgoKCgoKCgoKCg7/////////////Cgr3////////9goKCgoKCgoKCgoKChII/////////wgKCgj/////
+        ////+AoKCgoKCgoKCgoKCgoT////////CgoK////////////DgoKCgoKCgoKCgoKCgoKEv////gKCgr/
+        /////////w4KCgoKCgoKCgoKCgoKCgoKChP4CgoKCv//////////GfgKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoT//////////////8KCgoKCgoKCgoKCgoKCgoKCgoKCgr///////////////8OCgoKCgoKCgoKCgoK
+        CgoKCgoT///////////////////3CgoKCgoKCgoKCgoKCgr4////////////////////////CGYKCgoK
+        CgoKCgoKCv///////////////////////////xnvEgoKCmZmZgj2////////////////////////////
+        /////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAABAAAAAgAAAAAQAEAAAAAACAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8A
+        AAD/AP8A//8AAP///wD////wAIAIAP///wAA/wAA///4AACPcIf//4AACH/////3AIAI9/////AAAH+P
+        ////8AAA//+I//+AAABwD3j//wAA//cHCP/wAAAP//8P/3AAAI//8A//cAAAAH/wj//wAAAAAACP//8A
+        AAAAAH////cAAACP//////93d////wAA//8AAHAAAABwBwAAhA8AAP//AAAAAAAAf/8AAAAPAAD//wAA
+        AAAAAP//AACEfwAA//8AAAAAAAAE/wAA//8oAAAAMAAAAGAAAAABAAgAAAAAAAAJAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABER
+        EQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCp
+        rQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABm
+        zAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/
+        mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNm
+        MwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPM
+        zAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYz
+        ZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbM
+        AABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkA
+        AACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ
+        /wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwA
+        ZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxmmQDMZswAmWb/AMyZ
+        AADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/
+        mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9m
+        mQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//
+        MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvL
+        ywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A
+        /wD//wAA////AP/////////////////////////////vDg4ODg4ODg4ODg4ODg4OEggODg4ODg4KDv//
+        ////////////////////////GQoKCgoKCgoKCg74DgoKCgoKCgoKEwoKCgoKCv//////////////////
+        ///////3CgoKCgoKCgoK7/////8KCgoKCgr/9hkKCgoKDv///////////////////////xkKCgoKCgoK
+        CgoK////////CgoKCgr4CgoKCgoKDv///////////////////////woKCgoKCgoKCgoK+P///////woK
+        CgoKCgr4CgoKDv//////////////////////EgoKCgoKCgoKCgoKCgpm//////8KCgoKCgr/CgoKDv//
+        ////////////////////CgoKCgoKCgoKCgoKCg74///////4CgoKCgoO//8KDv//////////////////
+        ///2CgoKCgoKCgoKCgoKE///////////CgoKDgoK////9/////////////////////8TCgoKCgoKCgoK
+        CgoKChMZ/////////wr4//fv////////////////////////CBMKCgoKCgoKCgoKCvf3DgoKCvj/////
+        /2YI///////////////////////////4CgoKCgoKCgoKCgoKCg74////7/f//////wgI////////////
+        //////////////gKCgoKCgoKCgoKCgoKCgoK/////////////wj2////////////////////////GQoK
+        CgoKCgoKCgoKCgoKCgoI////////////////////////////////////////CgoKCgoKChL/CgoKCgoK
+        CgoODv////8Z///////////////////////////////3CgoKCgoKCg4ZCgoKCgoT///3Ev///woI////
+        ///////////////////////////vZgoKCgoKCgoKCgoKCgrv//////cKCvj/////////////////////
+        /////////+8KCgoKCgoKCgoKCgoKCgr2/////xJm9v///////////////////////////////2YKCgoK
+        CgoKCgoKCgoKCgr/////////////////Cvf//////////////////////woKCgoKCgoKCg4OCgoKCmb/
+        ////////////////Cgr2////////////////////7woKCgoKCgoKCvcKCgoKCvf/////////////////
+        Cgr4////////////////////DgoKCgoKCgoKCgoKCgoKCvb/////7/j3////////DgoS////////////
+        ///////2CgoKCgoKCgoKCgoKCgoKCv///2YKCgoK7///////9xkI//////////////////8SCgoKCgoK
+        CgoKCgoKCgoKCv8ICgoKCmYSCP/////v92b//////////////////wgKCgoKCgoKCg4TCv/3Cgr39v8K
+        CgoKCgj2Cgrv//9mCgr3/////////////////woKCgoKCgoKCgoKCmb2/////////+8KCgoKCgoK//8K
+        9xJm///////////////2/woKCgoKCgoKCgoKCvb/////////////+AoKCgoI/xMK/wpm////////////
+        //8SZhMKCgoKCgoKCgoKZv////////////////YTE/j//woKCgr4//////////////8OCgoKCgoKCgoK
+        CgoKCgpm9v//////////////////CAoKCgr2/////////////wgKCgoKCgoKCgoKCgoKCgoKCv//////
+        ////////////EwoKChn///////////////cKCgoKCgoKCgoKCgoKCgoKCv//////////////////CgoO
+        ////////////////CAgOCgoKCgoKCgoKCgoKCgrv//////////////////8SCgoO////////////////
+        +AoKCgoKCgoKCgoKCgoKCgr///////////////////8KCgoK9v////////////8KCgoKCgoKCgoKCgoK
+        CgoKCgoKEvf///////////////YKCgoS//////////////8ZCgoKCgoKCgoKCgoKCgoKCgoKCgpm////
+        /////////xIKCgpm////////////////EgoKCgoKCgoKCgoKCgoKCgoKCgoKCgj/////////GQoKCgr/
+        /////////////////2YKCgoKCgoKCgoKCgoKCgoKCgoKCgoK+P//////CgoKCgr4///////////////v
+        EmYKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoO//8KCgoKCgoS///////////////3CgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr//////////////////wgKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCg7/////////////////////+AoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr3
+        /////////////////////xIKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCmb/////////////////
+        ///////3CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCP///////////////////////////w4KCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoK+O/////////////////////////////////2EgoKCgoKCgoKCgoKCgoK
+        CgoKCgr4///////////////////////////////////////vCgoKCgoKCgoKCgoKCgoKCgoZ////////
+        //////////////////////////////////cSDgoKCgoKCgoKCgoK7/f/////////////////////////
+        //////////////////////8I9/f39wj/9xn/////////////////////////////////////////////
+        /////////////////////////////////////////////wAAAAAAAACgAAAAAAAApQEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
